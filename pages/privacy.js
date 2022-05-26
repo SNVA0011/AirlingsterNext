@@ -14,19 +14,19 @@ export default function Terms() {
     }, [])
     return (
         <>
-            <head>
+            <Head>
                 <title>Privacy Policy - Airlingster</title>
                 <meta name="description" content="" />
                 <meta name="keywords" content="" />
                 <link rel="canonical" href={'https://www.airlingster.com/privacy'} />
-            </head>
+            </Head>
 
             <Header />
 
-            <div class="page-title page-title--small align-left m-0" >
-                <div class="container">
-                    <div class="page-title__content">
-                        <h1 class="page-title__name">Privacy Policy</h1>
+            <div className="page-title page-title--small align-left m-0" >
+                <div className="container">
+                    <div className="page-title__content">
+                        <h1 className="page-title__name">Privacy Policy</h1>
                     </div>
                     <BreadHero linkhtml={<><ul className='breadcrumb bradcum text-white'>
                         <li className="breadcrumb-item" > <Link href="/">Home</Link> </li> <li className='breadcrumb-item active' aria-current="page">Privacy</li> </ul></>} />

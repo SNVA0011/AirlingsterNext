@@ -28,10 +28,10 @@ export default function AboutUs() {
       <Header /> 
 
 
-      <div class="page-title page-title--small align-left" >
-        <div class="container">
-          <div class="page-title__content">
-            <h1 class="page-title__name">About Us</h1>
+      <div className="page-title page-title--small align-left" >
+        <div className="container">
+          <div className="page-title__content">
+            <h1 className="page-title__name">About Us</h1>
           </div>
           <BreadHero linkhtml={<><ul className='breadcrumb bradcum text-white'>
             <li className="breadcrumb-item" > <Link href="/">Home</Link> </li>

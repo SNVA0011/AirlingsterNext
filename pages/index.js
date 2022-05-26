@@ -1,15 +1,15 @@
-import Head from 'next/head' 
+import Head from 'next/head'
 import CustomizeTravel from '../component/CustomizeTravel'
 import Enginebox from '../component/Enginebox'
 import Footer from '../component/Footer'
-import Header from '../component/Navbar' 
+import Header from '../component/Navbar'
 import BlogTile from '../component/BlogTile';
 import Link from "next/link"
 
-export default function Home() {
+export default function Home(props) {
   return (
     <>
-      <Head> 
+      <Head>
         <title>Airlingster | Book Low Fares Flights Tickets & Rental Cars</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -44,7 +44,7 @@ export default function Home() {
                 <p>Blog lists</p>
                 <h2>Latest Blogs</h2></div>
               <div className="news__content offset-item animate">
-                <BlogTile />
+                <BlogTile allbloglist={props.allbloglist} showitem={3} />
 
                 <div className="align-center button-wrap">
                   <Link href="/blog">
@@ -66,3 +66,47 @@ export default function Home() {
 
   )
 }
+
+
+
+
+export async function getServerSideProps() {
+  var myHeaders = new Headers();
+  myHeaders.append("Content-Type", "application/json");
+
+  var raw = JSON.stringify({
+    "id": "",
+    "title": "",
+    "titleUrl": "",
+    "content": "",
+    "description": "",
+    "keywords": "",
+    "posttime": "",
+    "status": "",
+    "heading": "",
+    "img_url": "",
+    "siteId": "144",
+    "categoryName": "",
+    "blogdes2": "",
+    "blogTagsName2": "",
+    "extarTag": "",
+    "tfnHeader": "",
+    "tfnFooter1": "",
+    "tfnFooter2": "",
+    "tfnFooter3": "",
+    "tfnPopup": ""
+  });
+
+  var requestOptions = {
+    method: 'POST',
+    headers: myHeaders,
+    body: raw,
+    redirect: 'follow'
+  };
+  const res = await fetch("https://cms.travomint.com/travoles-content/showblogdata?authcode=Trav3103s987876", requestOptions)
+  const json = await res.json()
+  return {
+    props: { allbloglist: json.response }
+  }
+}
+

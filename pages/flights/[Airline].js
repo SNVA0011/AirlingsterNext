@@ -1,56 +1,62 @@
 import React, { useEffect, useState } from 'react'
+import Head from 'next/head';
+import Link from "next/link";
 import Container from 'react-bootstrap/Container';
-import Link from "next/link"
-import { useRouter } from 'next/router';
-import Footer from '../../component/Footer';
-import Navbar from "../../component/Navbar"
-import BreadHero from '../../component/BreadHero';
-import Head from 'next/head'
+import BreadHero from "../../component/BreadHero";
+import Header from '../../component/Navbar'
+import Footer from "../../component/Footer"
 
 export default function Airline(props) {
-
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
 
-  console.log("mm", props.flight)
-
   return (
     <>
       <Head>
-        <html lang="en" />
-        <title>{props.flight[0].metaTitle}</title>
-        <meta name="description" content={props.flight[0].metaDesc} />
-        <meta name="keywords" content={props.flight[0].metaKeyword} />
-        <link rel="canonical" href={`https://www.flyinate.com/flights/${props.flight[0].url}-${props.flight[0].pageValue}`} />
-        <link rel="alternate" href={`https://www.flyinate.com/flights/${props.flight[0].url}-${props.flight[0].pageValue}`} />
+        <title>{props.singleflight[0].metaTitle}</title>
+        <meta name="description" content={props.singleflight[0].metaDesc} />
+        <meta name="keywords" content={props.singleflight[0].metaKeyword} />
+				<link rel="canonical" href={`https://www.airlingster.com/flights/${props.singleflight[0].url}-${props.singleflight[0].pageValue}`} />
       </Head>
-      <Navbar />
-      {console.log("hjhj", props.flight)}
 
-      <div className='blogadda'>
+      {console.log('props-',props)}
 
-        <BreadHero title="Flights" linkhtml={<><ul className='breadcrumb text-white'> <li className="breadcrumb-item" > <Link href="/">Home</Link> </li> <li className='breadcrumb-item active' aria-current="page"> <Link href="/flights"> Flights </Link></li> <li className='breadcrumb-item active' aria-current="page">{props.flight[0].metaTitle}</li> </ul></>} />
+      <Header />
+      {
+        props.singleflight?.length > 0 ?
 
-        <div className='popular-destination blogaddalist details full-w'>
-          <Container>
-            {props.flight.map((items, i) => (
-              <div className='blogaddalist-round'>
-                <div className='blogaddalist-inner'>
-
-                  <div className="blog-inner-box2">
-                    <p dangerouslySetInnerHTML={{ __html: items.contentData }} />
-                  </div>
-
+          <div className='blogadda'>
+            <div className="page-title page-title--small page-title--blog align-left" >
+              <div className="container">
+                <div className="page-title__content">
+                  <h1 className="page-title__name">{props.singleflight[0].metaTitle}</h1>
                 </div>
+                <BreadHero linkhtml={<><ul className='breadcrumb bradcum text-white'>
+                  <li className="breadcrumb-item" > <Link href="/">Home</Link> </li> <li className='breadcrumb-item active' aria-current="page">Flights Details</li> </ul></>} />
               </div>
-            ))}
+            </div>
 
+            <div className='popular-destination blogaddalist details full-w'>
+              <Container> 
+                  <div className='blogaddalist-round'>
+                    <div className='blogaddalist-inner'> 
+                      <div className="blog-inner-box2 pb-5 content-ullist">
+                        {props.singleflight[0].contentData.length == 0 ?
+                          <p className='pb-2'>No Content found</p>
+                          :
+                          <div  dangerouslySetInnerHTML={{ __html: props.singleflight[0].contentData }}></div>
+                        }
+                      </div>
+                    </div>
+                  </div> 
+              </Container>
+            </div>
+          </div>
 
+          : 'No items found !'
+      }
 
-          </Container>
-        </div>
-      </div>
 
 
       <Footer />
@@ -61,11 +67,14 @@ export default function Airline(props) {
 
 
 
-export async function getServerSideProps(context) {
 
-  const { params } = context;
-  var cityname = params.Airline.split("-")[2]
-  let actualURLParts = params.Airline.split("-")
+
+export async function getServerSideProps(context) {
+  const { params } = context
+  const pageurl = params.Airline
+
+  var cityname = pageurl.split("-")[2]
+  let actualURLParts = pageurl.split("-")
 
   var myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
@@ -83,7 +92,7 @@ export async function getServerSideProps(context) {
     "contentTitle": "",
     "contentData": "",
     "contentImage": "",
-    "siteId": "139",
+    "siteId": "144",
     "status": "",
     "count": "",
     "url": actualURLParts[0] + '-' + actualURLParts[1],
@@ -100,6 +109,6 @@ export async function getServerSideProps(context) {
   const res = await fetch("https://cms.travomint.com/travoles-content/showcontent?authcode=Trav3103s987876", requestOptions)
   const json = await res.json()
   return {
-    props: { flight: json.response }
+    props: { singleflight: json.response }
   }
 }

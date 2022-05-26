@@ -23,7 +23,7 @@ export default function ChangeCountryMenu() {
                 <Dropdown.Item href="/" onClick={(e)=>{setLang('EN')}}  className={'btn btn-site ripple-effbtn btn-40 btn-block text-center '+(lang === 'EN' ? 'active':'')}><span>English</span></Dropdown.Item>
                 </Col>
                 <Col xs="12" md="12">
-                <Dropdown.Item href="/es/"  onClick={(e)=>{setLang('ES')}}  className={'btn btn-site ripple-effbtn btn-40 btn-block text-center '+(lang === 'ES' ? 'active':'')}><span>Spanish</span></Dropdown.Item>
+                <Dropdown.Item href="/es" locale="es" onClick={(e)=>{setLang('ES')}}  className={'btn btn-site ripple-effbtn btn-40 btn-block text-center '+(lang === 'ES' ? 'active':'')}><span>Spanish</span></Dropdown.Item>
                 </Col>
                 {/* <Col xs="6" md="6">
                 <a className='btn btn-site ripple-effbtn btn-40 btn-block text-center' href="https://www.flyinate.com/es">Spanish</a>

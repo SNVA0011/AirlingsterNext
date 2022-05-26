@@ -45,12 +45,14 @@ export default function Header() {
                                     </li>
                                     <li className='nav-item mx-lg-2'>
                                         <Link onClick={() => window.innerWidth < 1200 ? setExpanded(expanded ? false : "expanded") : ''} href="/flights">
-                                            <a className={'nav-link ' + (location.pathname === "/flights" ? 'active' : '')}>
+                                            <a className={'nav-link ' + 
+                                            (location.pathname === "/flights" || location.pathname === "/flights/[Airline]" ? 'active' : '')}>
                                                 Flight</a></Link>
                                     </li>
                                     <li className='nav-item mx-lg-2'>
                                         <Link onClick={() => window.innerWidth < 1200 ? setExpanded(expanded ? false : "expanded") : ''} href="/blog">
-                                            <a className={'nav-link ' + (location.pathname === "/blog" ? 'active' : '')}>
+                                            <a className={'nav-link ' + 
+                                            (location.pathname === "/blog" || location.pathname === "/blog/[blogDetail]" ? 'active' : '')}>
                                                 Blog</a></Link>
                                     </li>
                                     <li className='nav-item mx-lg-2'>

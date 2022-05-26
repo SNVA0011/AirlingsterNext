@@ -20,11 +20,11 @@ export default function BlogDetails(props, router) {
 
   const [loading, setLoading] = useState(false);
   useEffect(() => {
-    location.events.on('routeChangeStart', () => {    window.scrollTo(0, 0); setLoading(true)});
+    location.events.on('routeChangeStart', () => { window.scrollTo(0, 0); setLoading(true) });
     location.events.on('routeChangeComplete', () => setLoading(false));
     location.events.on('routeChangeError', () => setLoading(false));
     return () => {
-      location.events.off('routeChangeStart', () => {    window.scrollTo(0, 0); setLoading(true)});
+      location.events.off('routeChangeStart', () => { window.scrollTo(0, 0); setLoading(true) });
       location.events.off('routeChangeComplete', () => setLoading(false));
       location.events.off('routeChangeError', () => setLoading(false));
     };
@@ -76,7 +76,13 @@ export default function BlogDetails(props, router) {
                     <div className='blogaddalist-round'>
                       <div className='blogaddalist-inner'>
                         <div className="blog-inner-box2 mb-5 content-ullist">
-                          {loading ? <p className="py-2 h5">loading...</p> :
+                          {loading ?
+                          <div className='text-center py-5 my-4 w-100'>
+                              <div className="spinner-border text-secondary" role="status">
+                              <span className="sr-only">Loading...</span>
+                            </div>
+                            </div>
+                            :
                             props.singleblog[0].content === '' ?
                               <p className='pb-2'>No Content found</p>
                               :

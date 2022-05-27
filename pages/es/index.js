@@ -1,20 +1,20 @@
 import Head from 'next/head'
-import CustomizeTravel from '../component/CustomizeTravel'
-import Enginebox from '../component/Enginebox'
-import Footer from '../component/Footer'
-import Header from '../component/Navbar'
-import BlogTile from '../component/BlogTile';
+import CustomizeTravel from '../../component/es/CustomizeTravel'
+import Enginebox from '../../component/es/Enginebox'
+import Footer from '../../component/es/Footer'
+import Header from '../../component/es/Navbar'
+import BlogTile from '../../component/es/BlogTile';
 import Link from "next/link"
 
 export default function Home(props) {
   return (
     <>
       <Head>
-        <title>Airlingster | Book Low Fares Flights Tickets & Rental Cars</title>
+      <title>Airlingster | Book Low Fares Flights Tickets & Rental Cars</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
-        <link rel="canonical" href={'https://www.airlingster.com/'} />
-        <link rel="alternate" href={'https://www.airlingster.com/'} />
+        <link rel="canonical" href={'https://www.airlingster.com/es'} />
+        <link rel="alternate" href={'https://www.airlingster.com/es'} />
       </Head>
 
 
@@ -39,18 +39,15 @@ export default function Home(props) {
           <div className="blogs">
             <div className="container p-0">
               <div className="top-title text-center mb-5">
-                <p>Blog lists</p>
-                <h2>Latest Blogs</h2></div>
+              <p>Listas de blogs</p>
+                            <h2>Últimos blogs</h2></div>
               <div className="news__content offset-item animate">
                 <BlogTile allbloglist={props.allbloglist} showitem={3} />
 
-                <div className="align-center button-wrap">
-                  <Link href="/blog">
-                    <a className="btn btn-primary readmore-blog text-uppercase">
-                      See More
-                    </a>
-                  </Link>
-                </div>
+                <div class="align-center button-wrap"><Link href="/es/articulos">
+                  <a class="btn btn-primary readmore-blog text-uppercase">ver más</a> 
+                </Link></div>
+
               </div>
             </div>
           </div>

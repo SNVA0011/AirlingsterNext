@@ -2,16 +2,15 @@ import React, { useState } from 'react';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Dropdown from 'react-bootstrap/Dropdown'
-import Nav from 'react-bootstrap/Nav'
 import Link from 'next/link';
-import { useRouter } from 'next/router'; 
-import DropdownButton from 'react-bootstrap/DropdownButton' 
+import { useRouter } from 'next/router';
 
+import DropdownButton from 'react-bootstrap/DropdownButton'
 
 export default function ChangeCountryMenu() {
     const location = useRouter();
 
-    const [lang, setLang] = useState('EN');
+    const [lang, setLang] = useState('ES');
     const [curr, setCurr] = useState('INR');
     const [expanded, setExpanded] = useState(false);
 
@@ -20,7 +19,7 @@ export default function ChangeCountryMenu() {
             <div className='curr-block px-2'>
                 <h5 className='mb-2'>Select Language</h5>
                 <Row>
-                <Col xs="12" md="12" className='mb-2'>
+                    <Col xs="12" md="12" className='mb-2'>
                         <Dropdown.Item as={Link} href="/" onClick={(e) => { setLang('EN') }}>
                             <a className={'btn btn-site ripple-effbtn btn-40 btn-block text-center dropdown-item ' +
                                 (location.pathname === "/" ? 'active' : '')}>

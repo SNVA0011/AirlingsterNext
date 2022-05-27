@@ -16,7 +16,7 @@ export default function Enginebox(props) {
             <div className="col-xl-7 col-12">
               {" "}
            <div className="Enginebox-leftrentals">
-           <span className="Engine-flight-span">Flight, hotel & Car Rental,</span>
+           <span className="Engine-flight-span">Flight, hotel & Car Rental</span>
               <h1 className="Engine-Discover-with text-capitalize">Discover the best Flight With Us.</h1>
               <form action="#" className="site-banner__search layout-02 d-flex">
                 <div className="field-input col"> 

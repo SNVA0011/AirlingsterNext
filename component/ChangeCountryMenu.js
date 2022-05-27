@@ -22,16 +22,14 @@ export default function ChangeCountryMenu() {
                 <Row>
                 <Col xs="12" md="12" className='mb-2'>
                         <Dropdown.Item as={Link} href="/" onClick={(e) => { setLang('EN') }}>
-                            <a className={'btn btn-site ripple-effbtn btn-40 btn-block text-center dropdown-item ' +
-                                (location.pathname === "/" ? 'active' : '')}>
+                            <a className={'btn btn-site ripple-effbtn btn-40 btn-block text-center dropdown-item active'}>
                                 <span>English</span>
                             </a>
                         </Dropdown.Item>
                     </Col>
                     <Col xs="12" md="12">
                         <Dropdown.Item as={Link} href="/es" locale="es" onClick={(e) => { setLang('ES') }}>
-                            <a className={'btn btn-site ripple-effbtn btn-40 btn-block text-center dropdown-item ' +
-                                (location.pathname === "/es" ? 'active' : '')}>
+                            <a className={'btn btn-site ripple-effbtn btn-40 btn-block text-center dropdown-item '}>
                                 <span>Spanish</span>
                             </a>
                         </Dropdown.Item>

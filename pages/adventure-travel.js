@@ -13,7 +13,7 @@ const Adventure = () => {
         <>
             <div>
                 <Head>
-                    <title>Group - Airlingster</title>
+                <title>Adventure Travel - Airlingster</title>
                     <meta name="description" content="" />
                     <meta name="keywords" content="" />
                     <link rel="canonical" href={'https://www.airlingster.com/adventure-travel'} />

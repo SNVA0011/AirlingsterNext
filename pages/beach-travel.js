@@ -14,7 +14,7 @@ const Beach = () => {
     return (
         <> 
             <Head>
-                <title>Beach - Airlingster</title>
+                <title>Beach Travel - Airlingster</title>
                 <meta name="description" content="" />
                 <meta name="keywords" content="" />
                 <link rel="canonical" href={'https://www.airlingster.com/beach-travel'} />

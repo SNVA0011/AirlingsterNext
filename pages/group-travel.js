@@ -14,7 +14,7 @@ const Group = () => {
         <>
 
             <Head>
-                <title>Group - Airlingster</title>
+                <title>Group Travel - Airlingster</title>
                 <meta name="description" content="" />
                 <meta name="keywords" content="" />
                 <link rel="canonical" href={'https://www.airlingster.com/group-travel'} />

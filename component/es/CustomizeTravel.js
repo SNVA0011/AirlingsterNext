@@ -22,7 +22,7 @@ export default function CustomizeTravel() {
 
                     <Row>
                         <Col xs={12} md={4} lg={4} xl={4} className="mb-3">
-                            <Link href="/es/Viaje_de_aventura">
+                            <Link href="/es/viaje-de-aventura">
                                 <a className='image_area_partition sunrealizar'>
                                     <img src={"/images/business_travel.jpg"} alt='business_travel' width="370" height="278"></img>
                                     <div className='wrapper travel_airlinster'> 
@@ -32,7 +32,7 @@ export default function CustomizeTravel() {
                             </Link>
                         </Col>
                         <Col xs={12} md={4} lg={4} xl={4} className="mb-3">
-                            <Link href="/es/Viajes_en_grupo">
+                            <Link href="/es/viajes-en-grupo">
                                 <a className='image_area_partition sunrealizar'>
                                     <img src={"/images/corporate_travel.jpg"} alt='corporate_travel' width="370" height="278"></img>
                                     <div className='wrapper travel_airlinster'>
@@ -42,7 +42,7 @@ export default function CustomizeTravel() {
                             </Link>
                         </Col>
                         <Col xs={12} md={4} lg={4} xl={4} className="mb-3">
-                            <Link href="/es/Viajes_a_la_playa">
+                            <Link href="/es/viajes-a-la-playa">
                                 <a className='image_area_partition sunrealizar'>
                                     <img src={"/images/group_travel.jpg"} alt='group_travel' width="370" height="278"></img>
                                     <div className='wrapper travel_airlinster'> 
@@ -59,3 +59,4 @@ export default function CustomizeTravel() {
         </>
     )
 }
+

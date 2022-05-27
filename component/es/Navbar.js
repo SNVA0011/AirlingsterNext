@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Link from "next/link"
-import ChangeCountryMenu from './ChangeCountryMenu'; 
+import ChangeCountryMenu from './ChangeCountryMenu';
 import { useRouter } from 'next/router';
 
 
@@ -34,7 +34,7 @@ export default function Header() {
                             <Nav className="mx-auto">
                                 <ul className='navbar-nav'>
                                     <li className='nav-item mx-lg-2'>
-                                        <Link onClick={() => window.innerWidth < 1200 ? setExpanded(expanded ? false : "expanded") : ''} href="/es/">
+                                        <Link onClick={() => window.innerWidth < 1200 ? setExpanded(expanded ? false : "expanded") : ''} href="/es">
                                             <a className={'nav-link ' + (location.pathname === "/es" ? 'active' : '')}>
                                                 Casa</a></Link>
                                     </li>
@@ -45,19 +45,19 @@ export default function Header() {
                                     </li>
                                     <li className='nav-item mx-lg-2'>
                                         <Link onClick={() => window.innerWidth < 1200 ? setExpanded(expanded ? false : "expanded") : ''} href="/es/vuelos">
-                                            <a className={'nav-link ' + 
-                                            (location.pathname === "/es/vuelos" || location.pathname === "/es/vuelos/[Airline]" ? 'active' : '')}>
+                                            <a className={'nav-link ' +
+                                                (location.pathname === "/es/vuelos" || location.pathname === "/es/vuelos/[Airline]" ? 'active' : '')}>
                                                 Vuelo</a></Link>
                                     </li>
                                     <li className='nav-item mx-lg-2'>
                                         <Link onClick={() => window.innerWidth < 1200 ? setExpanded(expanded ? false : "expanded") : ''} href="/es/articulos">
-                                            <a className={'nav-link ' + 
-                                            (location.pathname === "/es/articulos" || location.pathname === "/es/articulos/[blogDetail]" ? 'active' : '')}>
+                                            <a className={'nav-link ' +
+                                                (location.pathname === "/es/articulos" || location.pathname === "/es/articulos/[blogDetail]" ? 'active' : '')}>
                                                 Artículos</a></Link>
                                     </li>
                                     <li className='nav-item mx-lg-2'>
-                                        <Link onClick={() => window.innerWidth < 1200 ? setExpanded(expanded ? false : "expanded") : ''} href="es/contacto">
-                                            <a className={'nav-link ' + (location.pathname === "es/contacto" ? 'active' : '')}>
+                                        <Link onClick={() => window.innerWidth < 1200 ? setExpanded(expanded ? false : "expanded") : ''} href="/es/contacto">
+                                            <a className={'nav-link ' + (location.pathname === "/es/contacto" ? 'active' : '')}>
                                                 Contacto</a></Link>
                                     </li>
                                 </ul>

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react' 
+import { useEffect, useState } from 'react'
 import Link from "next/link"
 import Footer from '../../component/es/Footer';
 import Header from "../../component/es/Navbar";
@@ -11,33 +11,36 @@ export default function Blog(props) {
 
   useEffect(() => {
     window.scrollTo(0, 0)
-  }, []) 
+  }, [])
   return (
-    <> 
+    <>
       <Head>
-        <title>	Blog - Airlingster</title>
+        <title>Artículos - Airlingster</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
-        <link rel="canonical" href={'https://www.airlingster.com/blog'} />
+        <link rel="canonical" href={'https://www.airlingster.com/es/articulos'} />
       </Head>
 
-      <Header /> 
+      <Header />
 
 
       <div className='blogadda'>
         <div className="page-title page-title--small page-title--blog align-left" >
           <div className="container">
             <div className="page-title__content">
-              <h1 className="page-title__name">Blog </h1>
+              <h1 className="page-title__name">Artículos</h1>
+
             </div>
-            <BreadHero linkhtml={<><ul className='breadcrumb bradcum text-white'>
-              <li className="breadcrumb-item" > <Link href="/">Home</Link> </li>
-              <li className='breadcrumb-item active' aria-current="page">Blog</li> </ul></>} />
+            <BreadHero linkhtml={<><ul className='breadcrumb bradcum text-white'> 
+            <li className="breadcrumb-item" > <Link href="/es/">casa</Link> </li>
+             <li className='breadcrumb-item active' aria-current="page">Artículos</li> </ul></>} />
           </div>
         </div>
 
-        <div className='popular-destination blogaddalist full-w'> 
-          <BlogTile allbloglist={props.allbloglist}/>
+
+
+        <div className='popular-destination blogaddalist full-w'>
+          <BlogTile allbloglist={props.allbloglist} />
         </div>
       </div>
 
@@ -47,7 +50,7 @@ export default function Blog(props) {
 
   )
 }
-  
+
 
 
 export async function getServerSideProps() {
@@ -64,12 +67,10 @@ export async function getServerSideProps() {
     "posttime": "",
     "status": "",
     "heading": "",
-    "img_url": "",
-    "siteId": "144",
     "categoryName": "",
-    "blogdes2": "",
-    "blogTagsName2": "",
-    "extarTag": "",
+    "siteId": "144",
+    "pageType": "Articulo",
+    "extraTag": "",
     "tfnHeader": "",
     "tfnFooter1": "",
     "tfnFooter2": "",
@@ -83,7 +84,7 @@ export async function getServerSideProps() {
     body: raw,
     redirect: 'follow'
   };
-  const res = await fetch("https://cms.travomint.com/travoles-content/showblogdata?authcode=Trav3103s987876", requestOptions)
+  const res = await fetch("https://cms.travomint.com/news-article/showNAdata?authcode=Trav3103s987876", requestOptions)
   const json = await res.json()
   return {
     props: { allbloglist: json.response }

@@ -27,7 +27,7 @@ export default function Blog(props) {
                             <h1 className="post__title">{items.title}</h1>
                             <p>{items.description}</p>
                             <br />
-                            <Link href={`/blog/${items.titleUrl}`}>
+                            <Link href={`/es/articulos/${items.titleUrl}`}>
                               <a className='image_area_partition'>
                                 <button className='btn btn-primary' aria-label="Lee mas">Lee mas
                                   <i className="bi bi-arrow-right-short ml-1 align-arrowmiddle"></i>
@@ -46,7 +46,7 @@ export default function Blog(props) {
                             <h1 className="post__title">{items.title}</h1>
                             <p>{items.description}</p>
                             <br />
-                            <Link href={`/blog/${items.titleUrl}`}>
+                            <Link href={`/es/articulos/${items.titleUrl}`}>
                               <a className='image_area_partition'>
                                 <button className='btn btn-primary' aria-label="Lee mas">Lee mas
                                   <i className="bi bi-arrow-right-short ml-1 align-arrowmiddle"></i>

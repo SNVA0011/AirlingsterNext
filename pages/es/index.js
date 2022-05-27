@@ -44,8 +44,8 @@ export default function Home(props) {
               <div className="news__content offset-item animate">
                 <BlogTile allbloglist={props.allbloglist} showitem={3} />
 
-                <div class="align-center button-wrap"><Link href="/es/articulos">
-                  <a class="btn btn-primary readmore-blog text-uppercase">ver más</a> 
+                <div className="align-center button-wrap"><Link href="/es/articulos">
+                  <a className="btn btn-primary readmore-blog text-uppercase">ver más</a> 
                 </Link></div>
 
               </div>
@@ -62,9 +62,7 @@ export default function Home(props) {
   )
 }
 
-
-
-
+ 
 export async function getServerSideProps() {
   var myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
@@ -79,12 +77,10 @@ export async function getServerSideProps() {
     "posttime": "",
     "status": "",
     "heading": "",
-    "img_url": "",
-    "siteId": "144",
     "categoryName": "",
-    "blogdes2": "",
-    "blogTagsName2": "",
-    "extarTag": "",
+    "siteId": "144",
+    "pageType": "Articulo",
+    "extraTag": "",
     "tfnHeader": "",
     "tfnFooter1": "",
     "tfnFooter2": "",
@@ -98,7 +94,14 @@ export async function getServerSideProps() {
     body: raw,
     redirect: 'follow'
   };
-  const res = await fetch("https://cms.travomint.com/travoles-content/showblogdata?authcode=Trav3103s987876", requestOptions)
+
+  var requestOptions = {
+    method: 'POST',
+    headers: myHeaders,
+    body: raw,
+    redirect: 'follow'
+  };
+  const res = await  fetch("https://cms.travomint.com/news-article/showNAdata?authcode=Trav3103s987876", requestOptions)
   const json = await res.json()
   return {
     props: { allbloglist: json.response }

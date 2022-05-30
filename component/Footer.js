@@ -13,7 +13,7 @@ export default function Footer() {
       <section className="banner-contact">
         <div className="container">
           <div className="banner-inner">
-            <h2>Enjoy Your Trip To The Best Flight. We Provided Each And Every Time.</h2>
+            <p className="desweprov">Enjoy Your Trip To The Best Flight. We Provided Each And Every Time.</p>
             {/* <a href="#" className="btn"></a> */}
           </div>
         </div>

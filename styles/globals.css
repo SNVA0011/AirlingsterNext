@@ -1867,7 +1867,7 @@ body .testimonial-wrap .slick-dots li button:before{width:8px;height:8px}
 body .testimonial-wrap .slick-dots li button:before{background-color:#d8d8d8}
 body .testimonial-wrap .slick-dots li.slick-active button:before{background-color:#5451d2}
 body .banner-wrap .banner-inner{padding:45px 100px;border-radius:10px;background-color:#5451d2;background-repeat:no-repeat;background-size:550px;background-position:bottom right 50px}
-body .banner-wrap .banner-inner h2{font-size:36px;font-weight:500;color:#fff;margin-bottom:10px}
+body .banner-wrap .banner-inner .desweprov{font-size:36px;font-weight:500;color:#fff;margin-bottom:10px}
 body .banner-wrap .banner-inner p{font-size:18px;color:#2d2d2d;margin-bottom:30px}
 body .banner-wrap .banner-inner a.btn{background-color:#fff;font-size:15px;color:#fff}
 body .blogs-wrap.layout-02{padding:60px 0 100px}
@@ -1899,7 +1899,7 @@ body .banner-wrap.layout-02{background-color:#f7f7f7;padding:130px 0;background-
 body .banner-wrap.layout-02 .banner-inner{padding:0;background-color:transparent;max-width:50%}
 body .banner-contact{background:#262626;padding:75px 0}
 body .banner-contact .banner-inner{display:flex;align-items:center;justify-content:space-between}
-body .banner-contact .banner-inner h2{font-size:36px;text-transform:capitalize;color:#fff;line-height:1.4;margin:0;font-weight:600;letter-spacing:.6px;margin-bottom:0}
+body .banner-contact .banner-inner .desweprov{font-size:32px;text-transform:capitalize;color:#fff;line-height:1.4;margin:0;font-weight:600;letter-spacing:.6px;margin-bottom:0}
 body .banner-contact .banner-inner a.btn{background-color:#2d2d2d;font-size:15px;max-width:40%}
 body .popular-destination .travel_airlinster{background:#5451d2;padding:10px;color:#fff;text-align:center;font-size:20px}
 body .footer.layout-03{border-top:0;background-color:#111;text-align:center}
@@ -2060,7 +2060,7 @@ body .breadcrumb_area .bradcum{margin-top:25px}
 body .enginebanner_sctn .banner-shape-14.w-100,
 body .shape-bottom.bigbanner-wgb svg{height:60px}
 body .page-title--small .page-title__content p.page-title__slogan{margin-bottom:20px;margin-top:-7px;letter-spacing:.6px;font-size:13px}
-body .banner-contact .banner-inner h2{font-size:32px}
+body .banner-contact .banner-inner .desweprov{font-size:32px}
 body .site-header ul.navbar-nav{border-top:solid 1px #d7d6e7;padding-top:6px;margin-top:15px}
 body .page-title--small .page-title__content h1{font-size:26px;margin-bottom:10px}
 body .breadcrumb_area{float:left;height:auto}
@@ -2069,7 +2069,7 @@ body .page-title--small .page-title__content{text-align:left;width:100%;position
 body .page-title--small{padding-top:45px;padding-bottom:45px;height:auto;min-height:150px;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-align-content:stretch;-ms-flex-line-pack:stretch;align-content:stretch;-webkit-align-items:center;-ms-flex-align:center;align-items:center}
 body .breadcrumb_area.full-w.text-uppercase.none .container{padding:0}}
 @media (max-width:767px){
-.banner-contact .banner-inner h2{font-size:28px;text-align:center}
+.banner-contact .banner-inner .desweprov{font-size:28px;text-align:center}
 body .sunrealizar .wrapper.travel_airlinster{margin-top:0;position:relative;width:100%;border-radius:0 0 14px 14px}
 body .popular-destination.travellist.full-w.customizespace-75 .col-xl-4.col-lg-4.col-md-4.col-12{margin-bottom:30px!important}
 body .popular-destination.travellist.full-w.customizespace-75 .col-xl-4.col-lg-4.col-md-4.col-12:last-child{margin-bottom:0!important}}

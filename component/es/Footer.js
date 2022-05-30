@@ -14,7 +14,7 @@ export default function Footer() {
       <section className="banner-contact">
         <div className="container">
           <div className="banner-inner">
-            <h2>Disfruta Tu Viaje Al Mejor Vuelo. Proporcionamos cada vez.</h2>
+            <p className="desweprov">Disfruta Tu Viaje Al Mejor Vuelo. Proporcionamos cada vez.</p>
             {/* <a href="#" className="btn"></a> */}
           </div>
         </div>

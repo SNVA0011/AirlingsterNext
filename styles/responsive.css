@@ -15,7 +15,7 @@ body .archive-city .col-left{padding:40px 20px 60px;margin:0}
 }
 @media only screen and (min-width:1200px){
 body .container{max-width:1200px}
-body .banner-contact .banner-inner h2{max-width:60%}
+body .banner-contact .banner-inner .desweprov{max-width:60%}
 }
 @media only screen and (min-width:1440px){
 body .container{max-width:1240px}
@@ -559,7 +559,7 @@ body .site-banner.layout-02 .site-banner__title:after{content:'';display:none}
 body .site-banner .site-banner__content{position:static;transform:inherit}
 body .banner-contact .banner-inner{flex-wrap:wrap}
 body .banner-contact .banner-inner a.btn,
-body .banner-contact .banner-inner h2{max-width:100%}
+body .banner-contact .banner-inner .desweprov{max-width:100%}
 body .banner-wrap .banner-inner{background-image:inherit!important;padding:40px}
 }@media only screen and (max-width:375px){
 body .places-item .places-item__thumb img{width:100%}
@@ -633,7 +633,7 @@ body .testimonial-slider .slick-dots,
 body .testimonial-slider.layout-02 .slick-dots{margin-top:30px}
 body .banner-wrap.layout-02 .banner-inner{max-width:100%}
 body .banner-wrap.layout-02{padding:40px 0;background-image:inherit!important}
-body .banner-contact .banner-inner h2,
-body .banner-wrap .banner-inner h2{font-size:28px}
+body .banner-contact .banner-inner .desweprov,
+body .banner-wrap .banner-inner .desweprov{font-size:28px}
 body .blogs-wrap.layout-02{padding:40px 0}
 }

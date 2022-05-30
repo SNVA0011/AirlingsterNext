@@ -79,7 +79,9 @@ export default function Footer() {
             </div>
           </div>
           <div className="footer__bottom">
-            <p className="footer__bottom__copyright">2022 © <Link href="/">Airlingster</Link>. All rights reserved.</p>
+            <p className="footer__bottom__copyright">
+            © 2022 <Link href="/">Airlingster</Link>, having its registered office in the state of 
+            W Ray Rd, Chandler, AZ 85226. All rights reserved.</p>
           </div>
         </div>
       </footer>

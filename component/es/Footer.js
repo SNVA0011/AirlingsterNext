@@ -86,8 +86,9 @@ mapa del sitio</Link></li> */}
           </div>
         </div>
         <div className="footer__bottom">
-          <p className="footer__bottom__copyright">2022 © <Link href="/es/">Airlingster</Link>.
-            Reservados todos los derechos.</p>
+        <p className="footer__bottom__copyright">
+            © 2022 <Link href="/es/">Airlingster</Link>,con domicilio social en el estado de
+            W Ray Rd, Chandler, AZ 85226. Reservados todos los derechos.</p>
         </div>
       </div>
     </footer>

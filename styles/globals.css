@@ -2034,7 +2034,7 @@ body .readmore-blog{max-width:200px;border-radius:70px;width:100%;background:#ff
 body .business-main .blogs img.loaddot-wauto{height:auto;width:60px}
 body .d-flex.h-100vh.align-items-center.justify-content-center{height:350px}
 body .recent-blogsalide ul{list-style:none}
-body .recent-blogsalide a{font-size:17px;font-weight:600;padding-bottom:5px;display:block}
+body .recent-blogsalide a{font-size:17px;font-weight:600;padding-bottom:5px;display:block; color:#000}
 body .recent-blogsalide .badge{font-weight:500;padding:8px;display:inline-block;background:#5451d2;min-width:80px;letter-spacing:2px}
 body .recent-blogsalide p{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;font-size:15px}
 body .recent-blogsalide a:hover{color:#607d8b}

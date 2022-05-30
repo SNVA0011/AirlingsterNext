@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
-body .bg-who{background-image:url(../public/images/img_about_1.jpg)}
+body .bg-who{background-image:url('/static/images/img_about_1.jpg')}
 body .image-w{width:20px}
 body .business-main .blogs{background-color:#f9f9f9}
 body .bradcum{list-style:none;display:flex;margin-top:15px}
@@ -407,7 +407,7 @@ body .places-item__meta .places-item__currency{float:right;color:#fff}
 body .places-item__meta .places-item__count{color:#fff}
 body .places-item__reviews .places-item__number{color:#5451d2}
 body .places-item__reviews .places-item__number svg>*{fill:#5451D2;stroke:#5451D2}*,img{image-rendering:crisp-edges;image-rendering:-o-crisp-edges;image-rendering:-webkit-optimize-contrast}
-body .page-title--small{height:200px;background-image:url('../public/images/page-bg.jpg');background-size:cover;background-position:bottom center;background-color:#5451d2;margin-bottom:60px;background-repeat:no-repeat}
+body .page-title--small{height:200px;background-image:url('/static/images/page-bg.jpg');background-size:cover;background-position:bottom center;background-color:#5451d2;margin-bottom:60px;background-repeat:no-repeat}
 body .page-title--small .container{position:relative;height:100%}
 body .page-title--small .page-title__content{text-align:left;width:70%}
 body .page-title--small .page-title__content h1{color:#fff;font-size:30px;margin-bottom:5px}

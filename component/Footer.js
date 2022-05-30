@@ -33,10 +33,10 @@ export default function Footer() {
                   <h3>Company</h3>
                   <ul>
                     <li><Link href="/about-us">About Us</Link></li>
-                    <li><Link href="/blog" >Blog</Link></li>
-
+                    <li><Link href="/blog" >Blog</Link></li> 
                     <li><Link href="/contact" >Contact</Link></li>
-
+                    <li className="d-none"><Link href="/" >Home</Link></li>
+                    <li className="d-none"><Link href="/es" >Casa</Link></li> 
                   </ul>
                 </aside>
               </div>

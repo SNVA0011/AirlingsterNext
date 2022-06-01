@@ -1025,14 +1025,15 @@ body .shop-details__share ul li i{font-size:20px}
 body .shop-details__share ul li a:hover i{color:#5451d2}
 
 body .shop-details__wrap{margin-bottom:92px}
-b,strong{font-weight:700}
+body b,body strong{font-weight:700}
 
 body .h1,
 body .h2,
 body .h3,
 body .h4,
 body .h5,
-body .h6,body h1,
+body .h6,
+body h1,
 body h2,
 body h3,
 body h4,

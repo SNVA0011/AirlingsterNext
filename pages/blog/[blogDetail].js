@@ -39,7 +39,7 @@ export default function BlogDetails(props, router) {
         <title>{props.singleblog[0].title}</title>
         <meta name="description" content={props.singleblog[0].description} />
         <meta name="keywords" content={props.singleblog[0].keywords} />
-        <link rel="canonical" href={'https://www.airlingster.com/blog' + props.singleblog[0].titleUrl} />
+        <link rel="canonical" href={'https://www.airlingster.com/blog/' + props.singleblog[0].titleUrl} />
       </Head>
 
       <Header />

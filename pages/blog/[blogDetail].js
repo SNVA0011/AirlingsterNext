@@ -44,10 +44,6 @@ export default function BlogDetails(props, router) {
 
       <Header />
 
-
-
-
-
       {
         props.singleblog[0] != '' ?
 

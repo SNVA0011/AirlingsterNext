@@ -9,233 +9,734 @@
 
 <url>
   <loc>https://www.airlingster.com/</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/about-us</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/flights</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/blog</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/contact</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/adventure-travel</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/group-travel</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/beach-travel</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.airlingster.com/blog/sun-country-flight-change-policy</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <loc>https://www.airlingster.com/blog/how-do-i-contact-atlanta-airport-customer-service</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.airlingster.com/blog/sun-country-airlines-cancellations-policy</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <loc>https://www.airlingster.com/blog/how-do-i-get-cheaper-flights-at-the-airport</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.airlingster.com/blog/alska-airlines-cancellations-policy</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <loc>https://www.airlingster.com/blog/how-do-i-call-alaska-airlines-from-costa-rica</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/privacy</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/terms</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/flights/alaska-airlines-AS</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/flights/delta-airlines-DL</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/flights/klm-airlines-KL</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/flights/lufthansa-airlines-LH</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/flights/qatar-airways-QR</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/flights/sun-country-SY</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/flights/united-airlines-UA</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/flights/virgin-atlantic-VS</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-do-i-call-allegiant-airlines-from-new-york</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-to-get-a-call-back-from-qatar-airways</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-to-get-a-call-back-from-klm-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-to-get-a-call-back-from-virgin-atlantic</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/what-is-an-unused-e-ticket-on-delta</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/united-airlines-missed-flight-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/what-is-copa-airlines-baggage-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/can-i-reschedule-my-already-booked-delta-flight</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/what-to-do-when-you-miss-your-lufthansa-flight</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-late-can-i-cancel-united-flight</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/what-bank-does-united-airlines-use</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-to-hold-flights-on-delta-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/lufthansa-best-deals-for-last-minutes-flight</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-can-you-change-your-flight-without-paying-a-fee-on-spirit-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/best-time-to-fly-on-american-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-to-add-second-passenger-name-on-american-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-to-apply-and-use-delta-credit</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/why-is-the-hold-time-so-long-at-american-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/does-aeromexico-charge-to-cancel-the-flight</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-can-i-find-out-if-my-flight-ticket-is-refundable</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/copa-airlines-charge-for-baggage</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-to-modify-a-delta-airlines-ticket</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-can-i-change-my-flight-without-paying-a-fee</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/delta-airlines-cancellation-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/can-i-transfer-delta-ecredit-to-another-person</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-do-i-upgrade-my-seat-on-united-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-do-i-modify-my-name-on-klm-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/qatar-airways-refund-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/why-is-my-delta-ecredit-not-showing-up</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/lufthansa-flight-change-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/aeromexico-airline-cancellation-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/united-airlines-flight-change-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/qatar-airways-flight-change-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/how-to-get-a-refund-from-united-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/united-airlines-cancellation-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/qatar-airways-cancellation-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/klm-flight-change-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/sun-country-flight-change-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/sun-country-airlines-cancellations-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/alska-airlines-cancellations-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/blog/how-to-choose-seats-on-a-flight</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/blog/klm-airlines-cancellation-policy</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/blog/virgin-atlantic-flight-change-policy</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/blog/virgin-atlantic-airlines-cancellation-policy</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/blog/alaska-flight-change-policy</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/sobre-nosotras</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/vuelos</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/contacto</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/viaje-de-aventura</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/viajes-en-grupo</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/viajes-a-la-playa</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-equipaje-de-virgin-atlantic-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-equipaje-de-sun-country-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/puedo-chatear-en-vivo-con-atencion-al-cliente-de-delta</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/politica-de-privacidad</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/terminos-y-condiciones</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/blog/alaska-airlines-flight-change-policy</loc>
-  <lastmod>2022-05-30T09:28:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-<url>
-  <loc>https://www.airlingster.com/es</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.airlingster.com/es/sobre-nosotras</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://www.airlingster.com/es/vuelos/aerolineas-lufthansa-LH</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.airlingster.com/es/vuelos</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://www.airlingster.com/es/vuelos/copa-airlines-CM</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.airlingster.com/es/articulos</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.airlingster.com/es/contacto</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.airlingster.com/es/viaje-de-aventura</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.airlingster.com/es/viajes-en-grupo</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.airlingster.com/es/viajes-a-la-playa</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.airlingster.com/es/articulos/politica-de-cambio-de-vuelo-de-klm-airlines</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.airlingster.com/es/articulos/politica-de-cancelacion-de-klm-airlines</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.airlingster.com/es/politica-de-privacidad</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.airlingster.com/es/terminos-y-condiciones</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://www.airlingster.com/es/vuelos/latam-aerolineas-LA</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/es/vuelos/aerolineas-alaska-AS</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.airlingster.com/es/vuelos/aeromexico-airlines-AM</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.airlingster.com/es/vuelos/aerolineas-aeromexico-AM</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/vuelos/Aerolineas-klm-KL</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/es/vuelos/Sun-Country-SY</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/vuelos/united-airlines-UA</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/es/vuelos/virgin-atlantic-VS</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.airlingster.com/es/articulos/como-hacer-el-check-in-en-l%C3%ADnea-con-alaska-airlines</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.airlingster.com/es/vuelos/aerolineas-qatar-QR</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/que-aerolineas-son-mejores-en-servicio-al-cliente</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-puedo-obtener-mi-vuelo-en-google</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/es-seguro-reservar-a-traves-de-google-flights</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-obtengo-ayuda-en-united-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/que-son-las-tarjetas-skymiles-de-delta-y-como-se-funcionan</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-envio-un-mensaje-en-alaska-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-hablar-con-latam-airlines-desde-seattle</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-puedo-cancelar-mi-reserva-de-vuelo-con-southwest-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-puedo-cambiar-mi-vuelo-sin-gastar-dinero</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/que-banco-utiliza-united-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/cuanto-equipaje-puedo-llevar-en-volaris-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-encontrar-vuelos-razonables-a-panama</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-reservar-vuelos-baratos-a-barranquilla</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/volaris-airlines-vuelos-baratos-a-los-angeles</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/las-mejores-formas-de-encontrar-vuelos-baratos-a-miami</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/cuantas-maletas-puedo-llevar-en-avianca</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-puedo-facturar-en-el-vuelo-de-viva-aerobus</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-es-el-procedimiento-de-check-in-de-copa-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/que-airlines-vuela-en-espana</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-obtener-un-reembolso-de-southwest-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/con-cuanta-anticipacion-puedo-cancelar-un-vuelo-con-copa-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/cuantas-maletas-se-pueden-llevar-en-southwest</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/cual-es-la-mejor-aerolinea-en-espana</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/que-es-el-mercado-de-latam</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cancelacion-y-politica-de-reembolso-de-southwest-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/cuanto-cuesta-el-cambio-de-vuelo-en-lufthansa</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-elegir-el-asiento-en-avianca</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cancelacion-de-latam-airlines-</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-hacer-el-check-in-para-latam-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/por-que-no-aparece-mi-ecredit-delta</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/puedo-transferir-delta-ecredit-a-otra-persona</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-reembolso-de-latam-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/vuelos-baratos-a-argentina</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cambio-de-nombre-de-copa-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-hacer-el-check-in-en-aeromexico-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-cambiar-vuelos-de-aeromexico</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cambio-de-vuelo-latam</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cancelacion-de-copa-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cambios-de-copa-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cancelacion-aerolinea-aeromexico</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cancelacion-de-lufthansa-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cambio-de-vuelo-de-lufthansa-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cambio-de-vuelo-de-united-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cambio-de-vuelo-de-qatar-airways</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cancelacion-de-qatar-airways</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cambio-de-vuelo-de-klm-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cancelacion-de-united-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cancelacion-de-klm-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.airlingster.com/es/articulos/como-hacer-el-check-in-en-linea-con-alaska-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/es/articulos/como-elegir-asientos-en-un-vuelo</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/es/articulos/-politica-de-cambio-de-vuelo-de-sun-country</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/es/articulos/-politica-de-cancelaciones-de-sun-country-airlines</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.airlingster.com/es/articulos/politica-de-cancelaci%C3%B3n-de-alaska-airlines</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://www.airlingster.com/es/articulos/politica-de-cancelacion-de-alaska-airlines</loc>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/es/articulos/cuales-son-las-normativas-de-cambio-de-vuelo-en-alaska-airlines</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/es/articulos/el-articulo-para-la-politica-de-cancelacion-de-virgin-atlantic</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.airlingster.com/es/articulos/puedo-cambiar-mi-vuelo-en-la-linea-aerea-virgin-atlantic</loc>
-  <lastmod>2022-05-30T09:33:36+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2022-11-14T07:07:56+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
+
+
 </urlset>

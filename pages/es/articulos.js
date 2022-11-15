@@ -53,7 +53,7 @@ export default function Blog(props) {
 
 
 
-export async function getServerSideProps() {
+export const getStaticProps = async () => {
   var myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
 

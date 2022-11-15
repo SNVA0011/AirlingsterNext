@@ -23,7 +23,6 @@ export default function Blog(props) {
 
       <Header /> 
 
-
       <div className='blogadda'>
         <div className="page-title page-title--small page-title--blog align-left" >
           <div className="container">
@@ -50,7 +49,7 @@ export default function Blog(props) {
   
 
 
-export async function getServerSideProps() {
+export const getStaticProps = async () => {
   var myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
 

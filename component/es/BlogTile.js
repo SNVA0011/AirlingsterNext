@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Link from "next/link"
+import Moment from 'react-moment';
 
 
 export default function Blog(props) { 
@@ -24,7 +25,11 @@ export default function Blog(props) {
                       <Col xs={12} xl={4} md={6} className="mb-4">
                         <div className='post hover__box postreadmore-card'>
                           <div className="post__info">
-                            <h1 className="post__title">{items.title}</h1>
+                         
+                              <div className='text-sm text-secondary mb-2 fw-medium'>
+                          <i class="bi bi-calendar4 mr-1"></i> <Moment date={items.posttime} format="MMM DD, YYYY" />   
+                          </div>
+                          <h1 className="post__title">{items.title}</h1>
                             <p>{items.description}</p>
                             <br />
                             <Link href={`/es/articulos/${items.titleUrl}`}>
@@ -43,7 +48,11 @@ export default function Blog(props) {
                       <Col xs={12} xl={4} md={6} className="mb-4">
                         <div className='post hover__box postreadmore-card'>
                           <div className="post__info">
-                            <h1 className="post__title">{items.title}</h1>
+                           
+                              <div className='text-sm text-secondary mb-2 fw-medium'>
+                          <i class="bi bi-calendar4 mr-1"></i> <Moment date={items.posttime} format="MMM DD, YYYY" />   
+                          </div>
+                          <h1 className="post__title">{items.title}</h1>
                             <p>{items.description}</p>
                             <br />
                             <Link href={`/es/articulos/${items.titleUrl}`}>

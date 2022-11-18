@@ -136,7 +136,11 @@ export async function getStaticProps(context) {
   const res = await fetch("https://cms.travomint.com/travoles-content/showcontent?authcode=Trav3103s987876", requestOptions)
   const json = await res.json()
   return {
-    props: { singleflight: json.response }
+    props: { singleflight: json.response },
+    // Next.js will attempt to re-generate the page:
+    // - When a request comes in
+    // - At most once every 10 seconds
+    revalidate: 60, // In seconds
   }
 }
 

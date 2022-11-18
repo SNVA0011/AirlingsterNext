@@ -87,7 +87,11 @@ export const getStaticProps = async () => {
   const res = await fetch("https://cms.travomint.com/news-article/showNAdata?authcode=Trav3103s987876", requestOptions)
   const json = await res.json()
   return {
-    props: { allbloglist: json.response }
+    props: { allbloglist: json.response },
+    // Next.js will attempt to re-generate the page:
+    // - When a request comes in
+    // - At most once every 10 seconds
+    revalidate: 60, // In seconds
   }
 }
 

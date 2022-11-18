@@ -9,6 +9,7 @@ import BreadHero from '../../component/BreadHero';
 import Head from 'next/head'
 import { useRouter } from 'next/router';
 import NotFound from '../NotFound'
+import Moment from 'react-moment';
 
 export default function BlogDetails(props, router) {
 
@@ -98,7 +99,13 @@ export default function BlogDetails(props, router) {
                                 props.singleblog[0].content === '' ?
                                   <p className='pb-2'>No Content found</p>
                                   :
+                                <>
+                                  <div className="mb-2 text-secondary">
+                                  - <Moment date={props.singleblog[0].posttime} format="MMM DD, YYYY" />
+                                  </div>
+                       
                                   <div dangerouslySetInnerHTML={{ __html: props.singleblog[0].content }}></div>
+                                </>
                               }
                             </div>
                           </div>
@@ -121,11 +128,14 @@ export default function BlogDetails(props, router) {
                                         <span className='count-s'>{i + 1}</span>
                                       </div>
                                       <div className='overflow-hidden'>
+                                      <span className='date-recent'><Moment date={items.posttime} format="MMM DD, YYYY" />   </span>
+
                                         <Link href={`/blog/${items.titleUrl}`}>
                                           <a className={location.asPath === '/blog/' + items.titleUrl ? 'active' : 'not-active'}>
                                             {items.title}
                                           </a>
                                         </Link>
+
                                         <p>{items.description}</p>
                                       </div>
                                     </li>
@@ -242,7 +252,11 @@ export async function getStaticProps(context) {
     props: ({
       singleblog: onejson.response,
       allblog: multiplejson.response
-    })
+    }),
+    // Next.js will attempt to re-generate the page:
+    // - When a request comes in
+    // - At most once every 10 seconds
+    revalidate: 60, // In seconds
   }
 }
 

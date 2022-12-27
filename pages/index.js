@@ -12,6 +12,7 @@ export default function Home(props) {
   console.log('process.env.NODE_ENV -->',process.env.NODE_ENV)
   console.log('parseInt(process.env.PORT, 10) || 3000) -->', parseInt(process.env.PORT, 10) || 3000)
   console.log('process.env.PORT  -->', process.env.PORT)
+  console.log('condition  -->', process.env.NODE_ENV !== 'production')
 
   return (
     <>

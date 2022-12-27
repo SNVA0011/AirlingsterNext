@@ -42,7 +42,7 @@ export default function Airline(props) {
             <title>{props.singleflight[0].metaTitle}</title>
             <meta name="description" content={props.singleflight[0].metaDesc} />
             <meta name="keywords" content={props.singleflight[0].metaKeyword} />
-            <link rel="canonical" href={`https://www.airlingster.com/es/vuelos/${props.singleflight[0].url}-${props.singleflight[0].pageValue}`} />
+            <link rel="canonical" href={`https://www.airlingster.com${location.asPath}`} />
           </Head>
 
           {

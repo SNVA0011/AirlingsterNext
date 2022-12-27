@@ -7,7 +7,7 @@ import Moment from 'react-moment';
 
 
 export default function Blog(props) {
-  console.log('props======>', props)
+ 
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])

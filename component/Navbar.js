@@ -9,11 +9,7 @@ import { useRouter } from 'next/router';
 
 export default function Header() {
     const location = useRouter();
-
-    console.log('location-', location)
-
-
-
+ 
     const [expanded, setExpanded] = useState(false);
 
     return (

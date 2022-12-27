@@ -6,7 +6,13 @@ import Header from '../component/Navbar'
 import BlogTile from '../component/BlogTile';
 import Link from "next/link"
 
+
 export default function Home(props) {
+
+  console.log('process.env.NODE_ENV -->',process.env.NODE_ENV)
+  console.log('parseInt(process.env.PORT, 10) || 3000) -->', parseInt(process.env.PORT, 10) || 3000)
+  console.log('process.env.PORT  -->', process.env.PORT)
+
   return (
     <>
       <Head>
